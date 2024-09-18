@@ -31,8 +31,7 @@ PM2.5 Emissions Data (summarySCC_PM25.rds): This file contains a data frame with
   
 Source Classification Code Table (Source_Classification_Code.rds): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
   
-You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:
-  
+You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:  
 This first line will likely take a few seconds. Be patient!  
 NEI <- readRDS("summarySCC_PM25.rds")  
 SCC <- readRDS("Source_Classification_Code.rds")  
